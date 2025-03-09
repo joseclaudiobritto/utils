@@ -1,6 +1,6 @@
 # Clean Architecture Project Generator
 
-This script automates the creation of a **Clean Architecture-based** project structure using .NET. It sets up a solution with four main layers: **Domain, Application, Infrastructure, and API (Presentation)**, along with test projects.
+This script automates the creation of a **Clean Architecture-based** project structure using .NET. It sets up a solution with four main layers: **Domain, Application, Infrastructure, and API (Presentation)**.
 
 ## Prerequisites
 
@@ -66,12 +66,4 @@ MyProject
 │   ├── Extensions/
 │   ├── Program.cs
 │   └── MyProject.API.csproj
-│
-├── MyProject.Tests
-│   ├── MyProject.Domain.Tests/
-│   ├── MyProject.Application.Tests/
-│   ├── MyProject.Infrastructure.Tests/
-│   ├── MyProject.Domain.Tests.csproj
-│   ├── MyProject.Application.Tests.csproj
-│   └── MyProject.Infrastructure.Tests.csproj
 ```
